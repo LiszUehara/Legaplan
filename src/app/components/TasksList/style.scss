@@ -52,3 +52,18 @@
         min-width: 272px;
     }
 }
+button {
+    background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+    width: 100%;
+    padding: 16px 24px 16px 24px;
+    border-radius: 8px;
+    opacity: 0px;
+    color: rgba(255, 255, 255, 1);
+    &.cancel {
+        background: rgba(231, 238, 251, 1);
+        color: rgba(0, 0, 0, 1);
+    }
+    &.delete {
+        background: linear-gradient(90deg, #D30707 0%, #F05353 68.65%);
+    }
+}
