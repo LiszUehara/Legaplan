@@ -1,0 +1,40 @@
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: Fill (386px)px;
+    height: Hug (56px)px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px dashed rgba(215, 221, 233, 1);
+    opacity: 0px;
+    cursor: pointer;
+    &:hover {
+        background: rgba(247, 249, 253, 1);
+        border-color: rgba(247, 249, 253, 1);
+    }
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    .taskContent{
+        display: flex;
+        gap: 8px;
+    }
+    .checkText {
+        text-decoration: line-through;
+        text-decoration-color: rgba(0, 0, 0, 0.54);
+        font-family: Inter Tight;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.54);
+
+    }
+}
