@@ -1,0 +1,54 @@
+.containerButton{
+    display: flex;
+    @media (max-width: 480px) {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}
+.modalNewTask {
+    min-width: 450px;
+    .inputs{
+        padding: 0.75rem 0;
+    }
+    @media (max-width: 480px) {
+        min-width: 272px;
+    }
+}
+.modalDeleteTask {
+    min-width: 450px;
+    padding: 1rem 0 2rem 0;
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.54);
+    @media (max-width: 480px) {
+        min-width: 272px;
+    }
+
+}
+.containerTask{
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 16px;
+    opacity: 0px;
+    border: 1px solid rgba(234, 236, 240, 1);
+    margin-bottom: 1.5rem;
+    .titleTaskList {
+        font-family: Inter Tight;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    @media (max-width: 480px) {
+        min-width: 272px;
+    }
+}
