@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Focal Point
 
-## Getting Started
+Projeto de teste para vaga de junior para empresa Legaplan seguindo o layout https://rb.gy/dwa07s disponibilizado pela empresa. 
 
-First, run the development server:
+
+## Start 
+
+Para iniciar
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
+### Disponivel em: 
+[http://localhost:3000](http://localhost:3000)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ **Adicionar**: Permite criar novas tarefas ou itens a serem realizados, com título
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ **Marcar como Concluído**: Permite marcar as tarefas como concluídas ou realizadas, geralmente com um simples clique.
 
-## Learn More
+✅ **Excluir Tarefas**: Opção para remover tarefas da lista, seja porque foram concluídas ou não são mais necessárias.
 
-To learn more about Next.js, take a look at the following resources:
+✅ **Tarefas Salvas no LocalStorage**: Ao criar uma tarefa, ela é salva no local storage em formato JSON. Ao reabrir a página, as tarefas são recuperadas e exibidas. Ao excluir são removidas do local storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ **Versao Mobile**: Adicionado a versao mobile
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+<br>
+Desenvolvido por <strong> Ianca Lisandra Uehara Xavier</strong>.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br>
+
+
+---
+---
+
+
+## 💬 Contato
+
+-  📧 **Email**: [ueharalisandra@gmail.com](ueharalisandra@gmail.com)
+
+
+
