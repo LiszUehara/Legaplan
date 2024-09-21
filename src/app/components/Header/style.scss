@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0rem 4rem;
+    padding: 2rem 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(215, 221, 233, 1);
+    .logo{
+        img {
+            margin-right: 10px;
+            display: inline;
+        }
+    }
+    .welcome{
+        font-family: "Inter Tight", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        @media (max-width: 480px) {
+            font-size: 16px;
+        }
+    }
+    .data{
+        font-family: "Inter Tight", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.54);
+        ;
+    }
+    
+    @media (max-width: 480px) {
+        margin: 0rem 1.5rem;
+        gap: 2px;
+    }
+}
