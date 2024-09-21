@@ -79,7 +79,7 @@ const TasksList = () => {
                     {!!getTaskCheck().length && (
                         <>
                             <div className="titleTaskList">Tarefas finalizadas</div>
-                            {getTaskCheck().map((task, index)=>{
+                            {getTaskCheck().map((task)=>{
                                 return (
                                     <Task
                                         key={task.text}
